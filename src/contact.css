@@ -1,3 +1,7 @@
+#contact{
+    margin: 10px;
+    padding-left: 20px;
+}
 .contact{
     width: inherit;
     box-shadow: 0px 0px 5px rgb(128, 0, 90),1px 0px 5px rgb(125, 227, 210);
