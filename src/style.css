@@ -61,6 +61,7 @@ footer{
 }
 
 #resume a{
+  color:   rgb(125, 227, 210);
   margin: 10px;
   text-decoration: none;
   width: 200px;
@@ -73,7 +74,7 @@ footer{
 #resume a:hover
 {
   background: linear-gradient(to right, rgb(128, 0, 90),  rgb(125, 227, 210));
-  color: white;
+  color: black;
 }
 
 
