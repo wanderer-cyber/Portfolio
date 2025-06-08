@@ -19,6 +19,7 @@ section{
 @media (max-width: 768px) {
     section{
         display: grid;
+        margin: 20px;
     }
     .aboutme{
         font-size: 20px;
