@@ -1,0 +1,56 @@
+.contact{
+    width: inherit;
+    box-shadow: 0px 0px 5px rgb(128, 0, 90),1px 0px 5px rgb(125, 227, 210);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.contact h1{
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+.contact p{
+    color:white;
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+
+.github img{
+    height: 70px;
+    width: 70px;
+}
+.instagram img{
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+.email img{
+    height: 60px;
+    width: 60px;
+    padding: 0;
+}
+.linkendin img{
+    height: 70px;
+    width: 70px;
+    padding-right: 10px;
+}
+
+.github,.instagram,.linkendin{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.email{
+    display: flex;
+    
+}

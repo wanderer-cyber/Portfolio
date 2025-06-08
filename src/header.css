@@ -1,0 +1,132 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    padding: 20px;
+  }
+header li{
+  list-style: none;
+}
+ 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.logo {
+  color: white;
+  align-items: center;
+  flex: 1;
+  font-size: 30px;
+  text-shadow: 0px 0px 5px rgb(128, 0, 90),1px 0px 5px rgb(125, 227, 210);
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+}
+.navbar ul{
+  list-style-type: none;
+}
+.navbar ul li {
+  list-style: none ;
+}
+.navbar ul li::marker{
+  content: none; 
+}
+.navbar li a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  border-radius: 5px;
+  transition: all ease;
+  height: 30px;
+  width: 100px;
+}
+
+.navbar li a:hover {
+  background: linear-gradient(to right,  rgb(128, 0, 90), rgb(125, 227, 210));
+  color: black;
+}
+
+
+.hamburger {
+  display: none;
+  color: white;
+  margin-right: 40px;
+  position: fixed;
+  padding-top: 10px;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.hamburger img{
+  height: 40px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.sidebar{
+  margin-top:70px;
+  margin-right: 40px;
+  width: 150px;
+  height: 100vh;
+  box-shadow: 0px 0px 5px rgb(128, 0, 90),1px 0px 5px rgb(125, 227, 210);
+  padding-top: 10px;
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  flex-direction: column;
+  background: linear-gradient(to bottom,rgb(128, 0, 90),rgb(125, 227, 210));
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+.sidnav li a{
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  text-decoration: none;
+  margin: 40px;
+  color: white;
+  align-items: center;
+  border-radius: 5px;
+  transition: all ease;
+  height: 30px;
+  width: 100px;
+}
+.sidnav li a:hover {
+  background: linear-gradient(to right, rgb(128, 0, 90), rgb(125, 227, 210) );
+  color: black;
+}
+
+@media (max-width:768px) {
+
+  .navbar{
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .sidebar.active {
+    display: flex;
+  }
+}
+
