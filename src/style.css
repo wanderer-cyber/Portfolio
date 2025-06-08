@@ -35,3 +35,10 @@ footer{
   background: transparent;
   backdrop-filter: blur(10px);
 }
+
+@media (max-widt:768px) {
+  body{
+    margin: 40px;
+    padding: 10px;
+  }
+}

@@ -6,6 +6,7 @@
     flex-direction: column;
     border-radius: 10px;
     align-items: center;
+    margin: 10px;
 }
 .contact a{
     text-decoration: none;
