@@ -61,8 +61,8 @@
 }
 
 @media (max-width:768px) {  
-    #contact{
-        padding: 20px;
+    .contact{
+            margin-left: 20px;
     }
     
 }
