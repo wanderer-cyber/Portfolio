@@ -37,8 +37,43 @@ footer{
   padding: 20px 10px;
   background: transparent;
   backdrop-filter: blur(10px);
-  box-shadow:0px 0px 5px rgb(128, 0, 90),1px 0px 5px rgb(125, 227, 210);;
+  box-shadow:0px 0px 5px rgb(128, 0, 90),1px 0px 5px rgb(125, 227, 210);
+  border-radius: 10px;
 }
+
+#resume{
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px 10px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow:0px 0px 5px rgb(128, 0, 90),1px 0px 5px rgb(125, 227, 210);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#resume a{
+  margin: 10px;
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  border: solid 1px white;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+#resume a:hover
+{
+  background: linear-gradient(to right, rgb(128, 0, 90),  rgb(125, 227, 210));
+  color: white;
+}
+
+
 
 @media (max-widt:768px) {
   body{
